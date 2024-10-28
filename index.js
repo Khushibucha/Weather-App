@@ -1,5 +1,14 @@
 const WeatherApiKey = "34f12c2b799b9944ea3ffbbafb56d215";
 
+document.getElementById("search-bar").addEventListener("keypress", function(e){
+
+    if(e.key === "Enter") {
+        document.getElementById("search-btn").click();
+}
+}
+);
+
+
 document.getElementById("search-btn").addEventListener("click", function(e){
     e.preventDefault();
     const cityName = document.getElementById("search-bar").value;

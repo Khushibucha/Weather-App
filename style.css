@@ -199,3 +199,6 @@ body {
     text-align: center;
     color: azure;
 }
+.search-box {
+    cursor:pointer;
+}
